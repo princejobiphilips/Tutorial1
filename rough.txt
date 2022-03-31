@@ -1,0 +1,11 @@
+ <BrowserRouter>
+          <Header />
+
+      <Routes>
+        <Route path ="/addcourse" element={<AddCourse/>} ></Route>
+        <Route path ="/courseview" element={<CourseView/>}></Route>
+        <Route path ="/news" element={<News/>} ></Route>
+        <Route path ="/posts" element={<Posts/>} ></Route>
+
+      </Routes>
+      </BrowserRouter>
